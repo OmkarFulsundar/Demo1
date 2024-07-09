@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Div</title>
+    <style>
+        div p{
+            background-color: aqua;
+        }
+        div>p{
+            background-color: yellow;
+        }
+        div+p{
+            background-color: red;
+        }
+        div~p{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>This Is P</p>
+    <p>This Is P</p>
+    <div>This is Div
+        <p>This Is P</p>
+        <p>This Is P</p>
+        <p>This Is P</p>
+    </div>
+    <p>This Is P</p>
+    <p>This Is P</p>
+</body>
+</html>
